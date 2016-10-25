@@ -2,17 +2,24 @@
   "manifest_version": 2,
 
   "name": "One Click Clear Cookies",
-  "description": "One Click Clear Cookies",
+  "description": "Clear your browser's cookies with a single click",
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "icon.png",
+   "default_title": "One Click Clear Cookies",
    "default_popup": "popup.html"
   },
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
   "permissions": [
-   "activeTab",
-   "tabs",
-   "cookies",
-   "*://*/*"
+     "activeTab",
+     "tabs",
+     "cookies",
+     "*://*/*"
    ]
 }
